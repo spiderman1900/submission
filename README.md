@@ -47,7 +47,7 @@ Software atau library yang dibutuhkan :
    ```bash
    streamlit run dashboard.py
    ```
-6. **Akses dashboard di browser Anda:** http://192.168.1.2:8501
+6. **Akses dashboard di browser Anda:** https://submissiongit-gn3iz4fuegfqb3myeeyhvr.streamlit.app/
    
 
 
