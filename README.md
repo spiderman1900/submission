@@ -33,7 +33,7 @@ Software atau library yang dibutuhkan :
 1. **Clone atau unduh repository ini** ke komputer Anda.
 2. **Masuk ke folder proyek:**
    ```bash
-   cd submission/dashboard
+   cd submission
    ```
 3. **Aktifkan virtual environment (opsional):**
    ```bash
@@ -45,9 +45,9 @@ Software atau library yang dibutuhkan :
    ```
 5. **Jalankan Streamlit:**
    ```bash
-   streamlit run dashboard.py
+   streamlit run dashboard\dashboard.py
    ```
-6. **Akses dashboard di browser Anda:** https://submissiongit-gn3iz4fuegfqb3myeeyhvr.streamlit.app/
+6. **Atau bisa akses dashboard langsung melalui browser Anda di:** https://submissiongit-gn3iz4fuegfqb3myeeyhvr.streamlit.app/
    
 
 
