@@ -3,13 +3,12 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-import os
+
 
 # Load dataset
-
+@st.cache_data
 def load_data():
-    print(os.getcwd())  # Print current working directory
-    data = pd.read_csv('main_data.csv')
+    data = pd.read_csv('dashboard/main_data.csv')
     data['season'] = data['season'].replace({1: 'Spring', 2: 'Summer', 3: 'Fall', 4: 'Winter'})
     data['workingday'] = data['workingday'].replace({0: 'Non-Working Day', 1: 'Working Day'})
     data['weekday'] = pd.Categorical(data['weekday'], categories=[0, 1, 2, 3, 4, 5, 6], ordered=True)
