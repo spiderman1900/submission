@@ -9,6 +9,7 @@ submission
 ├───data
 │   ├───day.csv
 │   └───hour.csv
+│   └───main_data_unclean.csv
 │   └───Readme.txt
 ├───notebook.ipynb
 ├───README.md
@@ -53,15 +54,14 @@ Software atau library yang dibutuhkan :
 
 ## Fitur Dashboard
 
-- **Pola Penyewaan Berdasarkan Bulan**
-  Visualisasi jumlah penyewaan sepeda per bulan.
+- **Penyewaan Berdasarkan Musim**
+  Visualisasi jumlah penyewaan sepeda per musim.
 - **Penyewaan Berdasarkan Hari Kerja dan Hari Libur**
-  Analisis penyewaan sepeda pada hari kerja vs hari libur.
+  Analisis penyewaan sepeda pada hari kerja dan hari libur.
 - **Faktor Lingkungan**
-  Grafik untuk memahami faktor yang mempengaruhi jumlah penyewaan.
+  Grafik untuk memahami faktor lingkungan (cuaca, suhu udara, kecepatan angin dan kelembapan) yang mempengaruhi jumlah penyewaan.
 
 
 ## Sumber Data
 
 Dataset yang digunakan adalah **day.csv** (disesuaikan menjadi main.csv) yang berisi data penyewaan sepeda per hari, termasuk informasi musim, suhu, kelembapan, dan faktor lingkungan lainnya.
-
